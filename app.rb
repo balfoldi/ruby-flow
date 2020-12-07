@@ -20,4 +20,4 @@ system("git merge '#{branch}'")
 system("git checkout '#{branch}'")
 system("git merge develop")
 
-system()#
+system("git push --set-upstream origin test")##
